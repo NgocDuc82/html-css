@@ -1,0 +1,268 @@
+@media only screen and (max-width: 392px) {
+  .display {
+    max-width: 390px;
+    width: 100%;
+  }
+  .display .container {
+    margin: 49px 24px;
+  }
+  .display .container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .display .container .header .header-name {
+    font-weight: bold;
+  }
+  .display .container .header .header-navbar {
+    display: none;
+  }
+  .display .container .header .header-navbar .header-navbar-list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .display .container .header .header-navbar .header-navbar-list .header-navbar-item {
+    padding: 0 25px;
+  }
+  .display .container .header .header-navbar .header-navbar-list .header-navbar-item a {
+    color: #000;
+  }
+  .display .container .header #menu {
+    position: relative;
+    display: block;
+  }
+  .display .container .header #menu .icon {
+    font-size: 20px;
+    color: #272d38;
+  }
+  .display .container .header #menu .sub-menu {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    top: 20px;
+    right: -3px;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  .display .container .header #menu .sub-menu li {
+    padding: 5px;
+    width: 100%;
+  }
+  .display .container .header #menu .sub-menu li a {
+    color: #fff;
+    font-size: 16px;
+  }
+  .display .container .slider {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .display .container .slider .slider-left {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+  }
+  .display .container .slider .slider-left .big {
+    font-size: 40px;
+  }
+  .display .container .slider .slider-left h1 {
+    color: #272d38;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  .display .container .slider .slider-left p {
+    color: #272d38;
+    max-width: 500px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  .display .container .slider .slider-left button {
+    margin: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    padding: 10px 40px;
+    background: #8eadd5;
+    border-radius: 8px;
+    border: none;
+  }
+  .display .container .slider .slider-left .slider2-link {
+    color: #272d38;
+  }
+  .display .container .slider .slider-left .slider2-link i {
+    font-size: 22px;
+  }
+  .display .container .slider .slider-left .right {
+    display: none;
+  }
+  .display .container .slider .slider-left .down {
+    display: block;
+    text-align: center;
+  }
+  .display .container .slider .slider-right {
+    margin-top: 50px;
+    width: 90%;
+  }
+  .display .container .slider .slider-right img {
+    width: 100%;
+  }
+  .display .container .slider-2 {
+    flex-direction: column-reverse;
+  }
+  .display .container .sns {
+    max-width: 380px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .display .container .sns .title {
+    text-align: center;
+  }
+  .display .container .sns .title span {
+    font-weight: 300;
+    font-size: 12px;
+    color: #667085;
+  }
+  .display .container .sns .social-media {
+    padding: 0px;
+  }
+  .display .container .sns .social-media .list-media {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    background: #f6f6f6;
+    border-radius: 8px;
+    padding: 0 16px;
+  }
+  .display .container .sns .social-media .list-media li {
+    padding: 8px;
+  }
+  .display .container .sns .social-media .list-media li a {
+    color: #272d38;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .display .container .info {
+    margin-top: 120px;
+    text-align: center;
+  }
+  .display .container .info .info-title p {
+    color: #272d38;
+    font-size: 14px;
+  }
+  .display .container .info .info-title h1 {
+    color: #272d38;
+    font-weight: 700;
+    max-width: 260px;
+    margin: auto;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 32px;
+  }
+  .display .container .info .info-list {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+  }
+  .display .container .info .info-list .info-item {
+    padding: 32px 0;
+    width: 100%;
+    background: #f6f6f6;
+    border-radius: 20px;
+  }
+  .display .container .info .info-list .info-item .info-avatar {
+    width: 100%;
+  }
+  .display .container .info .info-list .info-item .info-avatar img {
+    width: 36%;
+    border-radius: 50%;
+  }
+  .display .container .info .info-list .info-item .info-avatar p {
+    font-weight: 600;
+    color: #272d38;
+  }
+  .display .container .info .info-list .info-item .info-decription {
+    margin-top: 28px;
+  }
+  .display .container .info .info-list .info-item .info-decription p {
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 290px;
+    margin: auto;
+  }
+  .display .container .info .info-list .center {
+    margin: 15px 0;
+  }
+  .display .container .last {
+    background: #f6f6f6;
+    border-radius: 20px;
+    padding: 50px 0;
+  }
+  .display .container .last .slider-left {
+    max-width: 300px;
+  }
+  .display .container .last .slider-left h1 {
+    font-size: 32px;
+  }
+  .display .container .last .slider-left p {
+    font-size: 14px;
+  }
+  .display .container .last .slider-right {
+    display: none;
+  }
+  .display .footer {
+    margin-top: 140px;
+    background: #f6f6f6;
+    padding: 20px;
+  }
+  .display .footer .footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .display .footer .footer-list .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  .display .footer .footer-list .footer-item .title {
+    text-align: center;
+  }
+  .display .footer .footer-list .footer-item .title .first {
+    margin-bottom: 32px;
+  }
+  .display .footer .footer-list .footer-item .title p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .display .footer .footer-list .footer-item .title .list-span .item {
+    text-align: center;
+    margin: 24px 0;
+  }
+  .display .footer .footer-list .footer-item a {
+    font-size: 16px;
+    color: #272d38;
+  }
+  .display .footer .footer-list .footer-item a span {
+    text-align: center;
+  }
+  .display .footer .copright {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=Css.reponesive.css.map */
